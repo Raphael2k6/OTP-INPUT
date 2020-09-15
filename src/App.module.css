@@ -1,0 +1,19 @@
+.otpContainer {
+  margin-top: 10rem;
+  margin-bottom: 6rem;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.otpInput {
+  background: none;
+  border: 0;
+  width: 3rem;
+  justify-items: center;
+  text-align: center;
+  border-bottom: 2px solid black;
+  margin: 0rem 1rem 0rem 1rem; 
+}
+.otpInput:focus {
+  border-bottom: 2px solid rgba(232, 102, 28, 0.7)
+}
